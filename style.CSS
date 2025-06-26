@@ -1,0 +1,12 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header"
+    "navbar navbar navbar navbar"
+    "image_1 image_2 image_3 image_4"
+    "information information information information"
+    "blank blank blank blank"
+    "name name name name";
+}
