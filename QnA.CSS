@@ -34,46 +34,12 @@
 
 }
 
-.name{
-    grid-area: name;
+.header {
+    grid-area: header;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
-}
-
-#slider {
-    overflow: hidden;
-}
-#slider figure{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinate;
-}
-#slider figure img {
-    width: 20;
-    float: left;
-}
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: -100%;
-    }
-    25% {
-        left: -100%;
-    }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
+    
 }
 
 .name{
@@ -81,4 +47,35 @@
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
+}
+
+.name{
+    grid-area: name;
+    background-color: #d5bdaf;
+    padding: 30px;
+    text-align: center;
+}
+
+.name{
+    grid-area: name;
+    background-color: #d5bdaf;
+    padding: 30px;
+    text-align: center;
+}
+
+.blank {
+    grid-area: blank;
+    background-color: #e3d5ca;
+    padding: 30px;
+    text-align: center;
+    text-align: justify;
+    line-height: 200%;
+
+}
+
+.link {
+    grid-area: link;
+    text-align: center;
+    background-color: #d6ccc2;
+
 }

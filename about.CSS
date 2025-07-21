@@ -5,8 +5,8 @@
     grid-template-areas:
     "navbar navbar navbar navbar"
     "header header header header"
-    "image_1 image_2 image_3 image_4"
-    "information information information information"
+    "slide slide name3 name3"
+    "slide_1 slide_1 name4 name4"
 }
 
 .navbar {
@@ -34,6 +34,38 @@
 
 }
 
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinate;
+}
+#slider figure img {
+    width: 20;
+    float: left;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+}
+
 .name{
     grid-area: name;
     background-color: #d5bdaf;
@@ -41,9 +73,6 @@
     text-align: center;
 }
 
-#slider {
-    overflow: hidden;
-}
 #slider figure{
     position: relative;
     width: 500%;
