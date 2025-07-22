@@ -7,6 +7,15 @@
     "header header header header"
     "image_1 image_2 image_3 image_4"
     "information information information information"
+    "what what what what"
+    "why why why why"
+    "how how how how"
+    "info info info info"
+    "video video video video"
+    "url url url url"
+
+
+
 }
 
 .navbar {
@@ -43,28 +52,28 @@
 }
 
 .what{
-    grid-area: name;
+    grid-area: what;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
 }
 
 .why{
-    grid-area: name;
+    grid-area: why;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
 }
 
 .how{
-    grid-area: name;
+    grid-area: how;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
 }
 
 .info {
-    grid-area: blank;
+    grid-area: info;
     background-color: #e3d5ca;
     padding: 30px;
     text-align: center;
@@ -74,14 +83,14 @@
 }
 
 .video {
-    grid-area: link;
+    grid-area: video;
     text-align: center;
     background-color: #d6ccc2;
 
 }
 
-.why{
-    grid-area: name;
+.url{
+    grid-area: url;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
