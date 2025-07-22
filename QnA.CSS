@@ -79,3 +79,11 @@
     background-color: #d6ccc2;
 
 }
+
+.why{
+    grid-area: name;
+    background-color: #d5bdaf;
+    padding: 30px;
+    text-align: center;
+}
+
