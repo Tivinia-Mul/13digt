@@ -4,8 +4,8 @@
     grid-template-rows: auto;
     grid-template-areas:
     "navbar navbar navbar navbar"
-    "header header header header"
-    "image_1 image_2 image_3 image_4"
+    "blank blank blank blank"
+    "slider slider slider slider"
     "information information information information"
 }
 
