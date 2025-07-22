@@ -4,9 +4,8 @@
     grid-template-rows: auto;
     grid-template-areas:
     "navbar navbar navbar navbar"
-    "header header header header"
-    "slide slide name3 name3"
-    "slide_1 slide_1 name4 name4"
+    "slider slider blank blank"
+    "slider_1 slider_1 para para"
 }
 
 .navbar {
@@ -66,8 +65,8 @@
     }
 }
 
-.name{
-    grid-area: name;
+.blank{
+    grid-area: blank;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
@@ -105,8 +104,8 @@
     }
 }
 
-.name{
-    grid-area: name;
+.para{
+    grid-area: para;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
