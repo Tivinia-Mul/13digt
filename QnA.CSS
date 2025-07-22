@@ -42,21 +42,21 @@
     
 }
 
-.name{
+.what{
     grid-area: name;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
 }
 
-.name{
+.why{
     grid-area: name;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
 }
 
-.name{
+.how{
     grid-area: name;
     background-color: #d5bdaf;
     padding: 30px;
