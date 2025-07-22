@@ -34,7 +34,7 @@
 
 }
 
-.name{
+.blank{
     grid-area: name;
     background-color: #d5bdaf;
     padding: 30px;
@@ -76,7 +76,7 @@
     }
 }
 
-.name{
+.information{
     grid-area: name;
     background-color: #d5bdaf;
     padding: 30px;
