@@ -63,7 +63,7 @@
     text-align: center;
 }
 
-.blank {
+.info {
     grid-area: blank;
     background-color: #e3d5ca;
     padding: 30px;
@@ -73,7 +73,7 @@
 
 }
 
-.link {
+.video {
     grid-area: link;
     text-align: center;
     background-color: #d6ccc2;
