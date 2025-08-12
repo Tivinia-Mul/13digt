@@ -1,13 +1,13 @@
-.container{
+.container {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "header header header header"
-    "navbar navbar navbar navbar"
-    "blank blank blank blank"
-    "slider slider slider slider"
-    "information information information information"
+    "navbar"
+    "header"
+    "information"
+     "blank";
+
 }
 
 .header {
@@ -17,8 +17,8 @@
     width: 100%;
     background-color: #d5bdaf;
 
-
 }
+
 .navbar {
     grid-area: navbar;
     text-align: center;
@@ -26,8 +26,8 @@
     width: 100%;
     background-color: #d5bdaf;
 
-
 }
+
  
 .navbar li {
     display: inline;
@@ -35,59 +35,25 @@
     font-size: 20px;
     padding: 20px;
     background-color: #d5bdaf;
-
 }
  
+
 .navbar a {
     padding: 40px;
     background-color: #d5bdaf;
 
 }
 
+
 .blank{
-    grid-area: name;
+    grid-area: blank;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
 }
 
-#slider {
-    overflow: hidden;
-}
-#slider figure{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinate;
-}
-#slider figure img {
-    width: 20;
-    float: left;
-}
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: -100%;
-    }
-    25% {
-        left: -100%;
-    }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-}
-
 .information{
-    grid-area: name;
+    grid-area: information;
     background-color: #d5bdaf;
     padding: 30px;
     text-align: center;
