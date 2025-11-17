@@ -1,0 +1,66 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar navbar navbar navbar"
+    "header header header header"
+    "blank blank slider slider"
+    "para para slider_1 slider_1"
+}
+
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+    color: aliceblue;
+
+
+}
+ 
+.navbar li {
+    display: inline;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    padding: 20px;
+    background-color: #d5bdaf;
+
+}
+ 
+.navbar a {
+    padding: 40px;
+    background-color: #000000;
+    color: aliceblue;
+
+
+}
+
+.header {
+    grid-area: header;
+    padding: 40px;
+    font-size: 150%;
+    color: aliceblue;
+    background-color: #000000;
+    text-align: center;
+}
+
+.blank{
+    grid-area: blank;
+    background-color: #000000;
+    padding: 30px;
+    text-align: right;
+    color: aliceblue;
+}
+
+
+
+.para{
+    grid-area: para;
+    background-color: #000000;
+    padding: 30px;
+    text-align: right;
+    color: aliceblue;
+
+}

@@ -1,0 +1,47 @@
+.navbar a {
+    text-decoration: none;
+    color: var(--text-dark-blue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+ 
+.navbar a:hover {
+    color: #F4A261;
+}
+ 
+/* Hamburger menu icon */
+.menu-toggle {
+    display: none;
+    font-size: 1.8em;
+    cursor: pointer;
+    color: var(--text-dark-blue);
+}
+ 
+/* --- HEADER --- */
+.header {
+    grid-area: header;
+    padding: 40px 20px;
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem); /* Responsive font */
+    text-align: center;
+    color: var(--text-dark-blue);
+}
+ 
+/* --- IMAGE CAROUSEL --- */
+.image {
+    grid-area: image;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+}
+ 
+.carousel-slide {
+    position: relative;
+    width: 43%;
+    height: 90%;
+    margin: 0;
+}

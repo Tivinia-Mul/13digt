@@ -1,0 +1,99 @@
+.container{
+    display:grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar"
+    "header"
+    "what"
+    "video"
+    "why"
+    "how"
+    "by"
+}
+
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+    color: aliceblue;
+
+
+}
+ 
+.navbar li {
+    display: inline;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    padding: 20px;
+    color: aliceblue;
+
+}
+ 
+.navbar a {
+
+    color: aliceblue;
+    background-color: #000000;
+
+}
+
+.header {
+    grid-area: header;
+    background-color: #000000;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.what{
+    grid-area: what;
+    background-color: #000000;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.video {
+    grid-area: video;
+    text-align: center;
+    background-color: #000000;
+    color: aliceblue;
+
+}
+
+.why{
+    grid-area: why;
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.how{
+    grid-area: how;
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+     color: aliceblue;
+
+}
+
+.by{
+    grid-area: how;
+    background-color: #000000;
+    padding: 7.5px;
+    text-align: center;
+     color: aliceblue;
+
+}
+
+source {
+    height: 95px;
+    width: 100%;
+}
+
+
+
