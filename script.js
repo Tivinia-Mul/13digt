@@ -27,9 +27,7 @@ function showSlides() {
     setTimeout(showSlides, 2000);
 }
  
-
-
-
+ 
 function moveSlide(n) {
     const slides = document.querySelectorAll('.carousel-slide img');
    
