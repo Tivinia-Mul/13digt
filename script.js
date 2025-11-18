@@ -2,7 +2,7 @@ console.log("Script loaded.");
  
 //This is the java codes for making "image carousel" or "slideshow."
  
- let slideIndex = 0;
+let slideIndex = 0;
  
 function showSlides() {
     const slides = document.querySelectorAll('.carousel-slide img');
