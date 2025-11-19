@@ -1,0 +1,100 @@
+.container{
+    display:grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar navbar navbar navbar"
+    "header header header header"
+    "what what what what" }
+
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+
+
+}
+ 
+.navbar li {
+    display: inline;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    padding: 20px;
+    background-color: #000000;
+
+}
+ 
+.navbar a {
+    padding: 40px;
+    background-color: #000000;
+
+}
+
+.header {
+    grid-area: header;
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+}
+
+/* --- REVISED .image CLASS --- */
+.image {
+    grid-area: image;
+    background-color: #000000;
+    
+    /* ADD FLEXBOX TO CENTER THE CAROUSEL HORIZONTALLY AND VERTICALLY */
+    display: flex; /* Crucial for using justify-content and align-items */
+    justify-content: center; /* Centers the child (.carousel-slide) horizontally */
+    align-items: center; /* Centers the child (.carousel-slide) vertically */
+
+    /* Ensure the container has enough vertical space */
+    /* Use a fixed height (e.g., 500px) or viewport height (e.g., 50vh) */
+    height: 50vh; /* Setting the height to 50% of the viewport height */
+    width: 100%; /* Ensure it spans the grid column */
+    padding: 5px; /* Keep padding */
+}
+
+
+/* --- REVISED .carousel-slide CLASS --- */
+.carousel-slide {
+    /* Define a clear size for the carousel box relative to its parent (.image) */
+    position: relative; 
+    width: 43%; /* Takes up 80% of the .image container's width */
+    height: 90%; /* Takes up 90% of the .image container's height */
+    margin: 0; /* Remove vertical margin to keep it centered */
+}
+
+/* --- REVISED img inside carousel-slide --- */
+.carousel-slide img {
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+    position: absolute; 
+    
+    /* The images should completely fill the .carousel-slide container */
+    width: 100%;
+    height: 100%;
+    
+    /* Ensure the images cover the area without distortion */
+    object-fit: fill; 
+    
+    top: 0;
+    left: 0;
+}
+
+/* The 'active' class makes the current slide visible */
+.carousel-slide img.active {
+    opacity: 1; /* Fully visible */
+}
+
+/* Ensure only one slide is visible on initialization by calling showSlides() */
+
+.what{
+    grid-area: what;
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+}
+
+
